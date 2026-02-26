@@ -30,6 +30,7 @@ const Navbar = () => {
             AasaanTech
           </span>
         </a>
+        
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-6">
@@ -42,6 +43,12 @@ const Navbar = () => {
               {l.label}
             </a>
           ))}
+          <a
+            href="/login"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Back to login
+          </a>
           <a
             href="/developer/login"
             className="text-xs text-muted-foreground/50 hover:text-muted-foreground transition-colors"
