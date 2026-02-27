@@ -446,6 +446,7 @@ const compilerAverage =
               <div className="p-2 rounded-full bg-primary-light" >
                 <User className="h-6 w-6 text-primary" onClick={() => navigate("/student/profile")} />
               </div>
+              
               <Button variant="outline" 
                 onClick={async () => {
                   try {

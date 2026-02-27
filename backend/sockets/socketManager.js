@@ -9,7 +9,7 @@ const onlineByAdmin = new Map();
 export const initSocket = (server, origin) => {
   io = new Server(server, {
     cors: {
-      origin : [origin, "http://localhost:5173"],
+      origin : [origin],
       methods: ["GET", "POST"],
       credentials: true,
     },
