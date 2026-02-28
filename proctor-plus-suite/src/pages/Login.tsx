@@ -231,6 +231,18 @@ const Login = () => {
                 <p className="text-sm text-muted-foreground">End-to-end encrypted authentication</p>
               </div>
             </div>
+            <div
+              onClick={() => navigate("/developer")}
+              className="flex items-center gap-3 p-4 rounded-xl bg-card shadow-card cursor-pointer hover:shadow-elevated transition-all duration-300 hover:scale-[1.02] " 
+            >
+              <Code className="h-6 w-6 text-primary" />
+              <div>
+                <p className="font-medium text-card-foreground">Developer Tools</p>
+                <p className="text-sm text-muted-foreground">
+                  Access developer dashboard & system controls
+                </p>
+              </div>
+            </div>
             
           </div>
         </div>
