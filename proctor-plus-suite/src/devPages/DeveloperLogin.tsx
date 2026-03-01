@@ -64,7 +64,7 @@ const DeveloperLogin = () => {
         <Card className="border-border">
           <CardHeader className="text-center space-y-3">
             <img src={logo} alt="Logo" className="h-14 w-14 mx-auto rounded-xl" />
-            <CardTitle className="text-2xl" style={{ fontFamily: "Space Grotesk" }}>
+            <CardTitle className="text-2xl cursor-pointer " style={{ fontFamily: "Space Grotesk" }} onClick={() => navigate("/developer")}>
               Developer Login
             </CardTitle>
             <CardDescription>Access course registrants dashboard</CardDescription>
@@ -105,10 +105,11 @@ const DeveloperLogin = () => {
                 Sign In
               </Button>
             </form>
-            <div className="mt-4 text-center">
-              <a href="/developer" className="text-xs text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1">
-                <ArrowLeft size={12} /> Back to Portfolio
+            <div className="mt-4 text-center ">
+              <a href="/login" className="text-xs text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1">
+                <ArrowLeft size={12} /> Back to Login
               </a>
+              
             </div>
           </CardContent>
         </Card>

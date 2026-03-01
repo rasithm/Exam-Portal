@@ -201,7 +201,7 @@ const Login = () => {
             <div className="p-3 gradient-primary rounded-xl shadow-hero">
               <GraduationCap className="h-8 w-8 text-white" />
             </div>
-            <h1 className="text-4xl font-bold text-foreground">ExamPro</h1>
+            <h1 className="text-4xl font-bold text-foreground">AasaanTech ExamPro</h1>
           </div>
           
           <div className="space-y-4">
@@ -232,8 +232,8 @@ const Login = () => {
               </div>
             </div>
             <div
-              onClick={() => navigate("/developer")}
-              className="flex items-center gap-3 p-4 rounded-xl bg-card shadow-card cursor-pointer hover:shadow-elevated transition-all duration-300 hover:scale-[1.02] " 
+              onClick={() => navigate("/developer/login")}
+              className="flex items-center gap-3 p-4 rounded-xl bg-card shadow-card cursor-pointer  " 
             >
               <Code className="h-6 w-6 text-primary" />
               <div>

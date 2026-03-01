@@ -38,7 +38,7 @@ const Index = () => {
             <div className="p-4 gradient-primary rounded-2xl shadow-hero">
               <GraduationCap className="h-12 w-12 text-white" />
             </div>
-            <h1 className="text-5xl font-bold text-foreground">ExamPro</h1>
+            <h1 className="text-5xl font-bold text-foreground">AasaanTech ExamPro</h1>
           </div>
           
           <h2 className="text-4xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
